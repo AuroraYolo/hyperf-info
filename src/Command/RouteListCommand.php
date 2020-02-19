@@ -61,7 +61,7 @@ class RouteListCommand extends HyperfCommand implements InterfaceCommand
     public function handle()
     {
         $path = $this->input->getOption('path');
-        if ($path !== null) {
+        if (!empty($path)) {
             $this->isFind = true;
         }
         $data = [];
