@@ -107,7 +107,7 @@ class RouteListCommand extends HyperfCommand implements InterfaceCommand
             }
         }
         $this->show($data);
-        $this->success($this->success);
+        $this->info($this->success);
     }
 
     public function showMsg($str)
