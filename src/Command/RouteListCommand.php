@@ -9,6 +9,7 @@ use Psr\Container\ContainerInterface;
 use Symfony\Component\Console\Helper\Table;
 use Hyperf\HttpServer\Router\DispatcherFactory;
 use Symfony\Component\Console\Helper\TableSeparator;
+use Symfony\Component\Console\Input\InputOption;
 
 class RouteListCommand extends HyperfCommand implements InterfaceCommand
 {
