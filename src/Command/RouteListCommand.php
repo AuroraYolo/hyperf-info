@@ -52,7 +52,7 @@ class RouteListCommand extends HyperfCommand implements InterfaceCommand
     {
         $this->setDescription('Get routes [{path}] to get the route info.');
         $this->addUsage("--path=/index");
-        $this->addOption('path', 'p', InputOption::VALUE_NONE, null);
+        $this->addOption('path', 'p', InputOption::VALUE_NONE, '');
     }
 
     /**
